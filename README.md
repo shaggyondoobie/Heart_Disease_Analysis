@@ -1,6 +1,6 @@
 # Heart_Disease_Analysis
 This folder contains the heart_disease_dataset in excel format along with the jupyter notebook which has the code for the various machinle learning algorithms. The data contains various attributes as mentioned below. The goal is to perform EDA and then pre-process data and perform ML algorithms to predict the 'output' column.
-The dataset didnt contain any null values and upon performing EDA, there were some clear identifying patterns in the dataset. The chest pain column and maximum heart rate column had the highest postiive correlation with the output column whilst exercise induced angina and oldpeak had the highest negative correlation with the output column.
+The dataset didnt contain any null values and upon performing EDA, there were some clear identifying patterns in the dataset. The chest pain column and maximum heart rate column had the highest positive correlation with the output column whilst exercise induced angina and oldpeak had the highest negative correlation with the output column.
 We got the best results with Random Forest model which had a 87% accuracy with only 8 cases being incorrectly predicted in the test dataset. Upon considering the important attributes which show a high correlation with the output column, the Random Forest and Logistic Regression model show the best results with only 7 cases being incorrectly predicted.
 
 The attributes glossary:
